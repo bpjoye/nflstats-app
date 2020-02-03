@@ -1,0 +1,454 @@
+{
+  "tableNames" : [
+    {
+      "name" : "game",
+      "columns" : [
+        {
+          "column" : "game_id",
+          "displayName" : "Game ID",
+          "type" : "varchar"
+        },
+        {
+          "column" : "week",
+          "displayName" : "Week",
+          "type" : "varchar"
+        },
+        {
+          "column" : "day",
+          "displayName" : "Day",
+          "type" : "varchar"
+        },
+        {
+          "column" : "date",
+          "displayName" : "Date",
+          "type" : "date"
+        },
+        {
+          "column" : "time",
+          "displayName" : "Time",
+          "type" : "varchar"
+        },
+        {
+          "column" : "team_id",
+          "displayName" : "Team ID",
+          "type" : "varchar"
+        },
+        {
+          "column" : "w_or_l",
+          "displayName" : "Win/Loss",
+          "type" : "varchar"
+        },
+        {
+          "column" : "ot",
+          "displayName" : "Overtime",
+          "type" : "varchar"
+        },
+        {
+          "column" : "home_or_away",
+          "displayName" : "Home/Away",
+          "type" : "varchar"
+        },
+        {
+          "column" : "opp_team_id",
+          "displayName" : "Opposing Team ID",
+          "type" : "varchar"
+        },
+        {
+          "column" : "points_scored",
+          "displayName" : "Points Scored",
+          "type" : "number"
+        },
+        {
+          "column" : "points_allowed",
+          "displayName" : "Points Allowed",
+          "type" : "number"
+        },
+        {
+          "column" : "first_downs",
+          "displayName" : "First Downs",
+          "type" : "number"
+        },
+        {
+          "column" : "total_yards",
+          "displayName" : "Total Yards",
+          "type" : "number"
+        },
+        {
+          "column" : "passing_yards",
+          "displayName" : "Passing Yards",
+          "type" : "number"
+        },
+        {
+          "column" : "rushing_yards",
+          "displayName" : "Rushing Yards",
+          "type" : "number"
+        },
+        {
+          "column" : "turnovers_lost",
+          "displayName" : "Turnovers Lost",
+          "type" : "number"
+        },
+        {
+          "column" : "opp_first_downs",
+          "displayName" : "Opposing First Downs",
+          "type" : "number"
+        },
+        {
+          "column" : "opp_total_yards",
+          "displayName" : "Opposing Total Yards",
+          "type" : "number"
+        },
+        {
+          "column" : "opp_passing_yards",
+          "displayName" : "Opposing Passing Yards",
+          "type" : "number"
+        },
+        {
+          "column" : "opp_rushing_yards",
+          "displayName" : "Opposing Rushing Yards",
+          "type" : "number"
+        },
+        {
+          "column" : "opp_turnovers_lost",
+          "displayName" : "Opposing Turnovers Lost",
+          "type" : "number"
+        }
+      ]
+    },
+    {
+      "name" : "passing",
+      "columns" : [
+        {
+          "column" : "player_id",
+          "displayName" : "Player ID",
+          "type" : "number"
+        },
+        {
+          "column" : "rank",
+          "displayName" : "Rank",
+          "type" : "number"
+        },
+        {
+          "column" : "completions",
+          "displayName" : "Completions",
+          "type" : "number"
+        },
+        {
+          "column" : "attempts",
+          "displayName" : "Attempts",
+          "type" : "number"
+        },
+        {
+          "column" : "yards",
+          "displayName" : "Yards",
+          "type" : "number"
+        },
+        {
+          "column" : "td",
+          "displayName" : "Touchdowns",
+          "type" : "number"
+        },
+        {
+          "column" : "int",
+          "displayName" : "Interception %",
+          "type" : "number"
+        },
+        {
+          "column" : "long",
+          "displayName" : "Long",
+          "type" : "number"
+        },
+        {
+          "column" : "qbr",
+          "displayName" : "QB Rating",
+          "type" : "number"
+        },
+        {
+          "column" : "sacks",
+          "displayName" : "Sacks",
+          "type" : "number"
+        },
+        {
+          "column" : "sack_yards",
+          "displayName" : "Sack Yards Lost",
+          "type" : "number"
+        },
+        {
+          "column" : "4qc",
+          "displayName" : "4th Quarter Comebacks",
+          "type" : "number"
+        },
+        {
+          "column" : "gwd",
+          "displayName" : "Game Winning Drives",
+          "type" : "number"
+        }
+      ]
+    },
+    {
+      "name" : "player",
+      "columns" : [
+        {
+          "column" : "player_id",
+          "displayName" : "Player ID",
+          "type" : "number"
+        },
+        {
+          "column" : "name",
+          "displayName" : "Name",
+          "type" : "varchar"
+        },
+        {
+          "column" : "position",
+          "displayName" : "Position",
+          "type" : "varchar"
+        },
+        {
+          "column" : "team_id",
+          "displayName" : "Team ID",
+          "type" : "varchar"
+        },
+        {
+          "column" : "age",
+          "displayName" : "Age",
+          "type" : "number"
+        },
+        {
+          "column" : "games",
+          "displayName" : "Games",
+          "type" : "number"
+        },
+        {
+          "column" : "starts",
+          "displayName" : "Starts",
+          "type" : "number"
+        }
+      ]
+    },
+    {
+      "name" : "receiving",
+      "columns" : [
+        {
+          "column" : "player_id",
+          "displayName" : "Player ID",
+          "type" : "number"
+        },
+        {
+          "column" : "rank",
+          "displayName" : "Rank",
+          "type" : "number"
+        },
+        {
+          "column" : "targets",
+          "displayName" : "Targets",
+          "type" : "number"
+        },
+        {
+          "column" : "receptions",
+          "displayName" : "Receptions",
+          "type" : "number"
+        },
+        {
+          "column" : "yards",
+          "displayName" : "Yards",
+          "type" : "number"
+        },
+        {
+          "column" : "td",
+          "displayName" : "Touchdowns",
+          "type" : "number"
+        },
+        {
+          "column" : "long",
+          "displayName" : "Long",
+          "type" : "number"
+        },
+        {
+          "column" : "fumbles",
+          "displayName" : "Fumbles",
+          "type" : "number"
+        }
+      ]
+    },
+    {
+      "name" : "rushing",
+      "columns" : [
+        {
+          "column" : "player_id",
+          "displayName" : "Player ID",
+          "type" : "number"
+        },
+        {
+          "column" : "rank",
+          "displayName" : "Rank",
+          "type" : "number"
+        },
+        {
+          "column" : "attempts",
+          "displayName" : "Attempts",
+          "type" : "number"
+        },
+        {
+          "column" : "yards",
+          "displayName" : "Yards",
+          "type" : "number"
+        },
+        {
+          "column" : "td",
+          "displayName" : "Touchdowns",
+          "type" : "number"
+        },
+        {
+          "column" : "long",
+          "displayName" : "Long",
+          "type" : "number"
+        },
+        {
+          "column" : "fumbles",
+          "displayName" : "Fumbles",
+          "type" : "number"
+        }
+      ]
+    },
+    {
+      "name" : "team",
+      "columns" : [
+        {
+          "column" : "team_id",
+          "displayName" : "Team ID",
+          "type" : "varchar"
+        },
+        {
+          "column" : "team_name",
+          "displayName" : "Team Name",
+          "type" : "varchar"
+        },
+        {
+          "column" : "wins",
+          "displayName" : "Wins",
+          "type" : "number"
+        },
+        {
+          "column" : "losses",
+          "displayName" : "Losses",
+          "type" : "number"
+        },
+        {
+          "column" : "ties",
+          "displayName" : "Ties",
+          "type" : "number"
+        },
+        {
+          "column" : "points_for",
+          "displayName" : "Points For",
+          "type" : "number"
+        },
+        {
+          "column" : "points_against",
+          "displayName" : "Points Against",
+          "type" : "number"
+        },
+        {
+          "column" : "margin_of_victory",
+          "displayName" : "Margin Of Victory",
+          "type" : "number"
+        },
+        {
+          "column" : "strength_of_schedule",
+          "displayName" : "Strength Of Schedule",
+          "type" : "number"
+        },
+        {
+          "column" : "rating",
+          "displayName" : "Rating",
+          "type" : "number"
+        },
+        {
+          "column" : "off_rating",
+          "displayName" : "Offensive Rating",
+          "type" : "number"
+        },
+        {
+          "column" : "def_rating",
+          "displayName" : "Defensive Rating",
+          "type" : "number"
+        },
+        {
+          "column" : "league",
+          "displayName" : "League",
+          "type" : "varchar"
+        },
+        {
+          "column" : "3d_att",
+          "displayName" : "3rd Down Attempts",
+          "type" : "number"
+        },
+        {
+          "column" : "3d_conv",
+          "displayName" : "3rd Down Conversions",
+          "type" : "number"
+        },
+        {
+          "column" : "4d_att",
+          "displayName" : "4th Down Attempts",
+          "type" : "number"
+        },
+        {
+          "column" : "4d_conv",
+          "displayName" : "4th Down Conversions",
+          "type" : "number"
+        },
+        {
+          "column" : "rz_att",
+          "displayName" : "RedZone Attempts",
+          "type" : "number"
+        },
+        {
+          "column" : "rz_td",
+          "displayName" : "RedZone Touchdowns",
+          "type" : "number"
+        }
+      ]
+    },
+    {
+      "name" : "user",
+      "columns" : [
+        {
+          "column" : "email",
+          "displayName" : "Email",
+          "type" : "varchar"
+        },
+        {
+          "column" : "password",
+          "displayName" : "Password",
+          "type" : "varchar"
+        },
+        {
+          "column" : "first",
+          "displayName" : "First Name",
+          "type" : "varchar"
+        },
+        {
+          "column" : "last",
+          "displayName" : "Last Name",
+          "type" : "varchar"
+        },
+        {
+          "column" : "age",
+          "displayName" : "Age",
+          "type" : "number"
+        },
+        {
+          "column" : "phone_number",
+          "displayName" : "Phone Number",
+          "type" : "number"
+        },
+        {
+          "column" : "address",
+          "displayName" : "Address",
+          "type" : "varchar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+body {
+  background-color: #0000ff0a;
+}
+
+.header {
+  margin: 20px;
+}
+
+.app-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.filterContainer {
+  background-color: lightgray;
+  padding: 5;
+  border-radius: 5px;
+  min-width: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.index-summary {
+  font-size: 18px;
+  padding: 20px;
+}
+
+#navbar ul {
+ margin: 10px;
+ padding: 5px;
+ list-style-type: none;
+ text-align: center;
+ background-color: #000;
+ }
+
+#navbar ul li {
+ display: inline;
+ }
+
+#navbar ul li a {
+ text-decoration: none;
+ padding: .2em 1em;
+ color: #fff;
+ background-color: #000;
+ }
+
+#navbar ul li a:hover {
+ color: #000;
+ background-color: #fff;
+ }
+
+.active {
+  background-color: #4CAF50;
+}
+
+.page-content {
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+
+.table-title {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.table-container {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  margin: auto;
+}
+
+.current-query {
+  border: 1px solid black;
+  max-width: 500px;
+}
+
+.query-label {
+  font-weight: bold;
+}
+
+table {
+  display: block;
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+thead {
+  border: 2px solid black;
+}
+
+tbody{
+  overflow:auto;
+  height:500px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+th {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"] {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.signup-container {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.signup-title {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.input-label {
+  font-weight: bold;
+}
+
+.username-welcome {
+  margin-left: auto;
+  margin-right: 0;
+}
